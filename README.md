@@ -1,4 +1,4 @@
-# cyberthreat-streamlitapp
+# Cyberthreat-streamlitapp
 
 ![Status](https://img.shields.io/badge/status-work%20in%20progress-yellow) Under Development / Em Desenvolvimento
 
@@ -36,7 +36,7 @@ The application is publicly accessible via the web. No local installation is req
 
 ---
 
-# Português BR
+## Português BR
 
 ### Sobre o Projeto
 Este projeto encontra-se atualmente em desenvolvimento ativo. Seu principal objetivo é coletar, processar, analisar e exibir dados sobre ameaças cibernéticas. A ferramenta visa a fornecer uma maneira fácil de acessar e visualizar informações específicas sobre ameaças.
