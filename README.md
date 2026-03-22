@@ -10,12 +10,13 @@ The application is built using Python + HTML & CSS and deployed via the **Stream
 The data is relative to **Brazil** threat landscape.
 
 
-### ⚠️ Disclaimer & Data Source (ALL data collected from publicly available, belonging to **Kaspersky**)
+### ⚠️ Disclaimer & Data Source + Legal Notice (ALL data collected from publicly available, belonging to **Kaspersky**)
 
 #### **Important:** **All data**, metrics, and information displayed or processed by this software are retrieved directly from a **public website belonging to Kaspersky**.
 This project **does not** own the data, **nor does it** claim authorship over the security intelligence provided. It serves as a tool/interface to access publicly available information and to provide an alternative way to visualize and interact with the information.
+While the source code of this project is open for free use, this permission does **not** grant any rights to the data content itself. All data and cyber threat statistics are the exclusive intellectual property of **Kaspersky**, and this project acknowledges **their** full ownership.
 
-#### Data links:
+#### Kaspersky data links:
 1. https://cybermap.kaspersky.com/stats#country=215&type=KAS&period=w
 2. https://threats.kaspersky.com/
 
@@ -43,12 +44,13 @@ Este projeto encontra-se atualmente em desenvolvimento ativo. Seu principal obje
 A aplicação é construída utilizando Python + HTML & CSS e seu deploy é realizado através do framework **Streamlit**, permitindo que os usuários acessem os painéis de dados diretamente através de um navegador web.
 Os dados são relativos ao cenário de ameaças do **Brasil**.
 
-### ⚠️ Aviso Legal e Fonte de Dados (TODOS os dados coletados de fontes públicas, pertencentes à **Kaspersky**)
+### ⚠️ Aviso Legal e Fonte de Dados + Aviso Legal (TODOS os dados coletados de fontes públicas, pertencentes à **Kaspersky**)
 
 #### **Importante:** **Todos os dados**, métricas e informações exibidas ou processadas por este software são obtidos diretamente de um **site público pertencente à Kaspersky**.
 Este projeto **não** possui a propriedade dos dados, **nem** reivindica autoria sobre a inteligência de segurança fornecida. Ele serve como uma ferramenta/interface para acessar informações publicamente disponíveis e para fornecer uma maneira alternativa de visualizar e interagir com essas informações.
+Embora o código-fonte deste projeto esteja aberto para uso livre, essa permissão **não** concede quaisquer direitos sobre os dados em si. Todos os dados e estatísticas de ameaças cibernéticas são propriedade intelectual exclusiva da **Kaspersky**, e este projeto reconhece a sua total titularidade.
 
-#### Links dos dados:
+#### Links dos dados da Kaspersky:
 1. https://cybermap.kaspersky.com/stats#country=215&type=KAS&period=w
 2. https://threats.kaspersky.com/
 
