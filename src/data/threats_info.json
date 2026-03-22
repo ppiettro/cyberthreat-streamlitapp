@@ -1,0 +1,41 @@
+[
+    {
+        "Trojan": "\nA malicious program designed to electronically spy on the user’s activities (intercept keyboard input, take screenshots, capture a list of active applications, etc.). The collected information is sent to the cybercriminal by various means, including email, FTP, and HTTP (by sending data in a request)."
+    },
+    {
+        "Exploit": "\nExploits are programs that contain data or executable code which take advantage of one or more vulnerabilities in software running on a local or remote computer for clearly malicious purposes.\nOften, malicious users employ an exploit to penetrate a victim computer in order to subsequently install malicious code (for example, to infect all visitors to a compromised website with a malicious program). Additionally, exploits are commonly used by Net-Worms in order to hack a victim computer without any action being required from the user.\nNuker programs are notable among exploits; such programs send specially crafted requests to local or remote computers, causing the system to crash."
+    },
+    {
+        "Trojan-Ransom": "\nThis type of Trojan modifies data on the victim computer so that the victim can no longer use the data, or it prevents the computer from running correctly. Once the data has been “taken hostage” (blocked or encrypted), the user will receive a ransom demand.\nThe ransom demand tells the victim to send the malicious user money; on receipt of this, the cyber criminal will send a program to the victim to restore the data or restore the computer’s performance."
+    },
+    {
+        "Trojan-Downloader": "\nPrograms classified as Trojan-Downloader download and install new versions of malicious programs, including Trojans and AdWare, on victim computers. Once downloaded from the Internet, the programs are launched or included on a list of programs which will run automatically when the operating system boots up.\nInformation about the names and locations of the programs which are downloaded are in the Trojan code, or are downloaded by the Trojan from an Internet resource (usually a web page).\nThis type of malicious program is frequently used in the initial infection of visitors to websites which contain exploits."
+    },
+    {
+        "DangerousObject": ""
+    },
+    {
+        "Bruteforce": "\nA Bruteforce attack is a method for guessing a password or an encryption key that involves systematically trying all possible combinations of characters until a correct one is found. For long passwords, an alternative, called a dictionary attack, can be used; it has proved to be very effective against simple or suspected passwords. Unlike typical brute force, a dictionary attack uses a long list of popular or leaked passwords instead of generating a combination of letters and numbers.\nA successful Bruteforce attack allows an attacker to obtain valid user credentials."
+    },
+    {
+        "Intrusion": "\nIntrusion attacks attempt to exploit vulnerable or improperly configured applications, services, and operating systems remotely through a network to achieve arbitrary code execution and perform unauthorized network activity.\nA successful intrusion attack can result in remote code execution on the targeted hosts."
+    },
+    {
+        "Scan": "\nA Scan attack is performed by cyber-assailants in a process of initial information-gathering known as footprinting. Scan attacks are used mostly to identify and enumerate active hosts on a network, and to determine the host operating system and available UDP and TCP network services that are running on the targeted hosts.\nA successful Scan attack can result in information disclosure."
+    },
+    {
+        "DoS": "\nDoS programs are designed to conduct DoS (Denial of Service) attacks on a victim computer.\nEssentially, these attacks send numerous requests to a remote computer, and if the computer does not have enough resources to process all the incoming requests, the result will be a denial of service."
+    },
+    {
+        "Trojan-Clicker": "\nPrograms classified as Trojan-Clicker are designed to access Internet resources (usually web pages). This is done either by sending appropriate commands to the browser or by replacing system files that provide “standard” addresses for Internet resources (such as the Windows hosts file).\nA malicious user may use Trojan-Clicker programs to:\nincrease the number of visits to certain sites in order to boost the number of hits for online ads\nconduct a DoS (Denial of Service) attack on a particular server\nlead potential victims to viruses or Trojans."
+    },
+    {
+        "Hoax": "\nA hoax is a fake warning about a virus or other piece of malicious code. Typically a hoax takes the form of an e-mail message warning the reader of a dangerous new virus and suggesting that the reader pass the message on. Hoaxes cause no damage in themselves, but their distribution by well-meaning users often causes fear and uncertainty.\nMost anti-virus vendors include hoax information on their web sites and it is always advisable to check before forwarding warning messages."
+    },
+    {
+        "Trojan-PSW": "\nTrojan-PSW programs are designed to steal user account information such as logins and passwords from infected computers. PSW is an acronym of Password Stealing Ware.\nWhen launched, a PSW Trojan searches system files which store a range of confidential data or the registry. If such data is found, the Trojan sends it to its “master.” Email, FTP, the web (including data in a request), or other methods may be used to transit the stolen data.\nSome such Trojans also steal registration information for certain software programs."
+    },
+    {
+        "VHO:Trojan": ""
+    }
+]

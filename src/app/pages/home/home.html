@@ -1,0 +1,474 @@
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+    
+    h1, h2, h3, h4 {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+        z-index: 100;
+    }
+
+    .stAppHeader {
+        background-color: rgba(10, 10, 10, 0.3);
+        backdrop-filter: blur(16px);
+        border-bottom: solid;
+        border-color: rgba(255, 255, 255, 0.1);
+        border-width: 2px;
+    }
+
+    .block-container {
+        padding: 0rem;
+        margin-top: 0rem;
+        height: 100vh;
+    }
+    
+    .home-section, .about-app-section {
+        width: 100%;
+        position: sticky;
+        top: 0;
+    }
+
+    .home-section {
+        background: rgb(10, 10, 10);
+        overflow-x: hidden;
+        height: 85vh;
+    }
+
+    .text-container {
+        width: 56%;
+        margin-left: 80px;
+        margin-top: 200px;
+        justify-content: start;
+        text-wrap: balance;
+    }
+
+    .title-container {
+        display: flex;
+    }
+
+    .title {
+        color: rgb(238, 251, 244);
+        font-size: 75px;
+        font-weight: 500;
+        line-height: 1.2;
+        text-align: start;
+        z-index: 100;
+    }
+
+    .title-highlight {
+        background: linear-gradient(
+        150deg,
+        rgb(238, 251, 244),
+        rgb(28, 135, 100)
+        );
+        background-clip: text;
+        color: transparent;
+        font-size: 75px;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    .description-container {
+        display: flex;
+        justify-content: start;
+        margin-top: 30px;
+    }
+
+    .description {
+        color: rgb(172, 178, 175);
+        font-size: 18px;
+        font-weight: 450;
+        z-index: 100;
+    }
+
+    .info-container {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 15%;
+        right: 5%;
+    }
+
+    .map-container {
+        pointer-events: none;
+        z-index: 10;
+    }
+
+    .map-container img {
+        width: 600px;
+        filter: drop-shadow(5px 3px 7px rgba(21, 103, 75, 0.2));
+    }
+
+    .country-container, .date-container {
+        position: absolute;
+        background: rgba(38, 38, 38, 0.3);
+        backdrop-filter: blur(16px);
+        border: solid;
+        border-color: rgba(255, 255, 255, 0.1);
+        border-width: 0.5px;
+        border-radius: 2rem;
+        pointer-events: none;
+        height: 100px;
+        width: 220px;
+        z-index: 100;
+    }
+    
+    .country-container {
+        top: 10%;
+        right: 75%;
+    }
+    
+    .country-container div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 20px;
+        line-height: 1;
+    }
+
+    .country-container h3 {
+        color: rgb(172, 178, 175);
+        font-size: 14px;
+        font-weight: 450;
+    }
+
+    .country-container h2 {
+        color: #7fd6ae;
+        font-size: 48px;
+        margin-top: 2px;
+    }
+
+    .date-container {
+        top: 35%;
+        right: 60%;
+    }
+
+    .date-container div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 20px;
+        line-height: 1;
+    }
+
+    .date-container h3 {
+        color: rgb(172, 178, 175);
+        font-size: 14px;
+        font-weight: 450;
+    }
+
+    .date-container h2 {
+        color: #7fd6ae;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .github-container {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 3%;
+        right: 15%;
+        z-index: 100;
+    }
+
+    .github-button {
+        background: rgba(38, 38, 38, 0.3);
+        backdrop-filter: blur(16px);
+        border: solid;
+        border-color: rgba(255, 255, 255, 0.1);
+        border-width: 0.5px;
+        border-radius: 5rem;
+        height: 100px;
+        width: 220px;
+        padding: 0px 20px 0px 5px;
+        transition: box-shadow 0.5s, height 0.25s, width 0.25s, background 0.1s;
+    }
+
+    .github-button:hover {
+        height: 105px;
+        width: 225px;
+        box-shadow: rgba(21, 103, 75, 0.4) 0px 3px, rgba(21, 103, 75, 0.3) 0px 7px, rgba(21, 103, 75, 0.2) 0px 11px, rgba(21, 103, 75, 0.1) 0px 15px, rgba(21, 103, 75, 0.05) 0px 19px;
+    }
+
+    .github-button:active {
+        background: rgb(255, 255, 255);
+    }
+
+    .github-button img {
+        width: 85px;
+        pointer-events: none;
+        transition: width 0.25s, content 0.1s;
+    }
+
+    .github-button:hover img {
+        width: 90px;
+    }
+
+    .github-button:active img {
+        content: url("https://raw.githubusercontent.com/ppiettro/Image-load-test/597b2da4400556ca3f3e843c29ff00435798f821/images/Logos/GitHub_Invertocat_Black.svg");
+    }
+
+    .github-button a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 5px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        transition: font-size 0.25s, color 0.1s;
+    }
+
+    .github-button:hover a {
+        font-size: 22px;
+    }
+
+    .github-button:active a {
+        color: rgb(0, 0, 0);
+    }
+
+    .glowing-effect-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .glowing-effect {
+        filter: blur(250px);
+        height: 1000px;
+        width: 1000px;
+        background-image: radial-gradient(closest-side, rgba(101, 200, 157, 0.5), rgb(10,10, 10));
+        position: absolute;
+        top: -570px;
+        right: 15%;
+        z-index: 1;
+    }
+
+    .about-app-section {
+        height: 110vh;
+        background-color: rgba(10, 10, 10, 0.3);
+        backdrop-filter: blur(16px);
+        border-top: solid;
+        border-color: rgba(255, 255, 255, 0.1);
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-width: 1px;
+    }
+
+    .data-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .kaspersky-logo-container {
+        display: flex;
+        align-items: center;
+        pointer-events: none;
+    }
+
+    .kaspersky-logo-container img {
+        width: 220px;
+        margin-top: -40px;
+    }
+    
+    .kaspersky-fonts-container {
+        display: flex;
+        column-gap: 30px;
+        margin-top: -20px;
+    }
+
+    .kaspersky-data-button {
+        width: 300px;
+        height: 60px;
+        background: rgba(38, 38, 38, 0.1);
+        backdrop-filter: blur(16px);
+        border: solid;
+        border-color: rgba(255, 255, 255, 0.1);
+        border-width: 1px;
+        border-radius: 5rem;
+        margin: 0;
+        padding: 0;
+        transition: box-shadow 0.5s, width 0.25s, height 0.25s, background 0.1s;
+    }
+
+    .kaspersky-data-button:hover {
+        width: 305px;
+        height: 65px;
+        box-shadow: rgba(21, 103, 75, 0.4) 0px 2px, rgba(21, 103, 75, 0.3) 0px 4px, rgba(21, 103, 75, 0.2) 0px 6px, rgba(21, 103, 75, 0.1) 0px 8px, rgba(21, 103, 75, 0.05) 0px 10px;
+    }
+
+    .kaspersky-data-button:active {
+        background: rgb(21, 103, 75);
+        backdrop-filter: blur(16px);
+    }
+
+    .kaspersky-data-button a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 450;
+        transition: font-size 0.25s;
+    }
+
+    .stats-a {
+        padding-left: 80px;
+        padding-right: 80px; 
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .threats-a {
+        padding-left: 50px;
+        padding-right: 50px; 
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .kaspersky-data-button:hover a {
+        font-size: 22px;
+    }
+
+    .datatable-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        width: 78%;
+        margin-top: 10vh;
+    }
+
+    .datatable-container h2 {
+        font-size: 34px;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        color: rgb(75, 188, 141);
+    }
+
+    .dataframe-container {
+        background: rgba(38, 38, 38, 0.3);
+        backdrop-filter: blur(34px);
+        border-left-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-width: 1px;
+        border-color: rgba(255, 255, 255, 0.1);
+        border-radius: 16px;
+        overflow: auto;
+        height: 650px;
+        width: 100%;
+    }
+
+    .dataframe-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .dataframe-container {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .dataframe {
+        border-collapse: collapse;
+        padding: 5px;
+    }
+
+    .dataframe th, .dataframe td {
+        text-align: center;
+    }
+
+    .dataframe td {
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-top-color: rgba(255, 255, 255, 0.1);
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .dataframe th {
+        background: rgb(23, 23, 23);
+        color: white;
+        font-weight: bold;
+        position: sticky;
+        top: 0;
+    }
+
+</style>
+
+<section class="home-section">
+    <div class="text-container">
+        <div class="title-container">
+            <h1 class="title">Visualize Weekly <span class="title-highlight">CyberThreats Statistics</span></h1>
+        </div>
+
+        <div class="description-container">
+            <h2 class="description">Dashboard for monitoring weekly TOP 10 cyber threat statistics across various detection types, detailed descriptions, classifications, and platform targets for each specific threat to help you understand the nature of current digital risks.</h2>
+        </div>
+    </div>
+
+    <div class="info-container">
+        <div class="map-container">
+            <img src="https://raw.githubusercontent.com/ppiettro/Image-load-test/597b2da4400556ca3f3e843c29ff00435798f821/images/brazil.svg" alt="Brazil Map">
+        </div>
+
+        <div class="country-container">
+            <div>
+                <h3>Selected country</h3>
+                <h2>Brazil</h2>
+            </div>
+        </div>
+
+        <div class="date-container">
+            <div>
+                <h3>Collection Date</h3>
+                <h2>latest_collection_date</h2>
+            </div>
+        </div>
+
+        <div class="github-container">
+            <button class="github-button">
+                <a href="https://github.com/ppiettro" target="_blank">
+                    <img src="https://raw.githubusercontent.com/ppiettro/Image-load-test/27e32324930eb482d96e95257a376efc418d9b5b/images/Logos/GitHub_Invertocat_White.svg" alt="Github logo">
+                    
+                    Github Profile
+                </a>
+            </button>
+        </div>
+    </div>
+
+    <div class="glowing-effect-container">
+        <div class="glowing-effect"></div>
+    </div>
+</section>
+
+<section class="about-app-section">
+    <div class="data-container">
+        <div class="kaspersky-logo-container">
+            <img src="https://raw.githubusercontent.com/ppiettro/Image-load-test/27e32324930eb482d96e95257a376efc418d9b5b/images/Logos/kaspersky-logo-v2.svg" alt="Kaspersky Logo">
+        </div>
+
+        <div class="kaspersky-fonts-container">
+            <button class="kaspersky-data-button">
+                <a class="stats-a" href="https://cybermap.kaspersky.com/stats#country=215&type=OAS&period=w" target="_blank">Statistics data</a>
+            </button>
+            
+            <button class="kaspersky-data-button">
+                <a class="threats-a" href="https://threats.kaspersky.com/" target="_blank">Threats information</a>
+            </button>
+        </div>
+
+        <div class="datatable-container">
+            <h2>Data Table</h2>
+            
+            <div class="dataframe-container">
+            html_datatable
+            </div>
+        </div>
+    </div>
+</section>

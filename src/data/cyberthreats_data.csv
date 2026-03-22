@@ -1,0 +1,77 @@
+Date of Collection,Country Stats Detection Type,Threat Type,Threat Name,Threat Value (%),Threat Link
+2026-03-20,On-Access Scan,Trojan,Trojan.Script.Generic,18.78%,https://threats.kaspersky.com/en/threat/Trojan.Script.Generic
+2026-02-11,On-Access Scan,DangerousObject,DangerousObject.Multi.Generic,7.43%,https://threats.kaspersky.com/en/threat/DangerousObject.Multi.Generic
+2026-02-11,On-Access Scan,Trojan,Trojan.VBS.SAgent.gen,3.16%,https://threats.kaspersky.com/en/threat/Trojan.VBS.SAgent.gen
+2026-02-11,On-Access Scan,Trojan,Trojan.Win32.Hosts2.gen,2.91%,https://threats.kaspersky.com/en/threat/Trojan.Win32.Hosts2.gen
+2026-02-11,On-Access Scan,Trojan,Trojan.Script.Agent.gen,2.8%,https://threats.kaspersky.com/en/threat/Trojan.Script.Agent.gen
+2026-02-11,On-Access Scan,Trojan,Trojan.Win32.Sdum.gen,2.3%,https://threats.kaspersky.com/en/threat/Trojan.Win32.Sdum.gen
+2026-02-11,On-Access Scan,Trojan,Trojan.Win32.Staser.gen,1.87%,https://threats.kaspersky.com/en/threat/Trojan.Win32.Staser.gen
+2026-02-11,On-Access Scan,Trojan,Trojan.Multi.GenBadur.gen,1.71%,https://threats.kaspersky.com/en/threat/Trojan.Multi.GenBadur.gen
+2026-02-11,On-Access Scan,Trojan-Downloader,Trojan-Downloader.Script.Agent.gen,1.45%,https://threats.kaspersky.com/en/threat/Trojan-Downloader.Script.Agent.gen
+2026-02-11,On-Access Scan,Trojan,Trojan.Win32.Convagent.gen,1.43%,https://threats.kaspersky.com/en/threat/Trojan.Win32.Convagent.gen
+2026-02-11,On-Demand Scan,DangerousObject,DangerousObject.Multi.Generic,6.37%,https://threats.kaspersky.com/en/threat/DangerousObject.Multi.Generic
+2026-02-11,On-Demand Scan,Exploit,Exploit.Win32.BypassUAC.vho,3.88%,https://threats.kaspersky.com/en/threat/Exploit.Win32.BypassUAC.vho
+2026-02-11,On-Demand Scan,Trojan,Trojan.Script.Generic,3.17%,https://threats.kaspersky.com/en/threat/Trojan.Script.Generic
+2026-02-11,On-Demand Scan,Trojan,Trojan.Script.Agent.gen,2.19%,https://threats.kaspersky.com/en/threat/Trojan.Script.Agent.gen
+2026-02-11,On-Demand Scan,Trojan,Trojan.Win32.SEPEH.gen,2%,https://threats.kaspersky.com/en/threat/Trojan.Win32.SEPEH.gen
+2026-02-11,On-Demand Scan,Trojan,Trojan.Multi.Agent.gen,1.79%,https://threats.kaspersky.com/en/threat/Trojan.Multi.Agent.gen
+2026-02-11,On-Demand Scan,Trojan-Downloader,Trojan-Downloader.Script.Generic,1.35%,https://threats.kaspersky.com/en/threat/Trojan-Downloader.Script.Generic
+2026-02-11,On-Demand Scan,Trojan,Trojan.BAT.Obfus.gen,1.3%,https://threats.kaspersky.com/en/threat/Trojan.BAT.Obfus.gen
+2026-02-11,On-Demand Scan,Trojan,Trojan.Multi.CmdRedirector.a,1.28%,https://threats.kaspersky.com/en/threat/Trojan.Multi.CmdRedirector.a
+2026-02-11,On-Demand Scan,Trojan,Trojan.MSIL.Inject.gen,1.13%,https://threats.kaspersky.com/en/threat/Trojan.MSIL.Inject.gen
+2026-02-11,Mail Anti Virus,Trojan,Trojan.Script.Generic,21.11%,https://threats.kaspersky.com/en/threat/Trojan.Script.Generic
+2026-02-11,Mail Anti Virus,Trojan,Trojan.Script.Agent.gen,11.87%,https://threats.kaspersky.com/en/threat/Trojan.Script.Agent.gen
+2026-02-11,Mail Anti Virus,Trojan-Downloader,Trojan-Downloader.Script.Generic,9.62%,https://threats.kaspersky.com/en/threat/Trojan-Downloader.Script.Generic
+2026-02-11,Mail Anti Virus,Trojan,Trojan.PDF.Badur.gen,9.47%,https://threats.kaspersky.com/en/threat/Trojan.PDF.Badur.gen
+2026-02-11,Mail Anti Virus,DangerousObject,DangerousObject.Multi.Generic,7.3%,https://threats.kaspersky.com/en/threat/DangerousObject.Multi.Generic
+2026-02-11,Mail Anti Virus,Trojan-PSW,Trojan-PSW.MSIL.Agensla.gen,4.73%,https://threats.kaspersky.com/en/threat/Trojan-PSW.MSIL.Agensla.gen
+2026-02-11,Mail Anti Virus,Hoax,Hoax.Script.Scaremail.gen,3.44%,https://threats.kaspersky.com/en/threat/Hoax.Script.Scaremail.gen
+2026-02-11,Mail Anti Virus,Exploit,Exploit.MSOffice.CVE-2017-11882.g,3.43%,https://threats.kaspersky.com/en/threat/Exploit.MSOffice.CVE-2017-11882.g
+2026-02-11,Mail Anti Virus,Trojan,Trojan.MSIL.Taskun.gen,1.7%,https://threats.kaspersky.com/en/threat/Trojan.MSIL.Taskun.gen
+2026-02-11,Mail Anti Virus,Trojan,Trojan.MSIL.Crypt.gen,1.64%,https://threats.kaspersky.com/en/threat/Trojan.MSIL.Crypt.gen
+2026-02-11,Web Anti-Virus,Trojan,Trojan.Script.Generic,27.26%,https://threats.kaspersky.com/en/threat/Trojan.Script.Generic
+2026-02-11,Web Anti-Virus,Trojan,Trojan.PDF.Badur.gen,25.23%,https://threats.kaspersky.com/en/threat/Trojan.PDF.Badur.gen
+2026-02-11,Web Anti-Virus,Trojan,Trojan.Multi.Runner.e,9.54%,https://threats.kaspersky.com/en/threat/Trojan.Multi.Runner.e
+2026-02-11,Web Anti-Virus,Trojan-Clicker,Trojan-Clicker.Script.GhostPlugin.gen,6.38%,https://threats.kaspersky.com/en/threat/Trojan-Clicker.Script.GhostPlugin.gen
+2026-02-11,Web Anti-Virus,Trojan-Downloader,Trojan-Downloader.Script.Generic,5.6%,https://threats.kaspersky.com/en/threat/Trojan-Downloader.Script.Generic
+2026-02-11,Web Anti-Virus,Trojan,Trojan.BAT.Agent.azf,3.66%,https://threats.kaspersky.com/en/threat/Trojan.BAT.Agent.azf
+2026-02-11,Web Anti-Virus,Exploit,Exploit.Win32.MS05-036,3.63%,https://threats.kaspersky.com/en/threat/Exploit.Win32.MS05-036
+2026-02-11,Web Anti-Virus,Trojan,Trojan.Script.Agent.gen,2.74%,https://threats.kaspersky.com/en/threat/Trojan.Script.Agent.gen
+2026-02-11,Web Anti-Virus,Trojan,Trojan.Multi.Preqw.gen,2.01%,https://threats.kaspersky.com/en/threat/Trojan.Multi.Preqw.gen
+2026-02-11,Web Anti-Virus,Trojan-Downloader,Trojan-Downloader.BAT.Powedon.gen,1.68%,https://threats.kaspersky.com/en/threat/Trojan-Downloader.BAT.Powedon.gen
+2026-02-11,Intrusion Detection Scan,Bruteforce,Bruteforce.Generic.Rdp.a,59.34%,https://threats.kaspersky.com/en/threat/Bruteforce.Generic.Rdp.a
+2026-02-11,Intrusion Detection Scan,Bruteforce,Bruteforce.Generic.Rdp.d,24.98%,https://threats.kaspersky.com/en/threat/Bruteforce.Generic.Rdp.d
+2026-02-11,Intrusion Detection Scan,DoS,DoS.Generic.Flood.TCPSYN,7.28%,https://threats.kaspersky.com/en/threat/DoS.Generic.Flood.TCPSYN
+2026-02-11,Intrusion Detection Scan,Scan,Scan.Generic.PortScan.TCP,3.52%,https://threats.kaspersky.com/en/threat/Scan.Generic.PortScan.TCP
+2026-02-11,Intrusion Detection Scan,Scan,Scan.Generic.PortScan.UDP,3.19%,https://threats.kaspersky.com/en/threat/Scan.Generic.PortScan.UDP
+2026-02-11,Intrusion Detection Scan,Bruteforce,Bruteforce.Generic.Rdp.c,0.66%,https://threats.kaspersky.com/en/threat/Bruteforce.Generic.Rdp.c
+2026-02-11,Intrusion Detection Scan,Intrusion,Intrusion.Win.MS17-010.o,0.4%,https://threats.kaspersky.com/en/threat/Intrusion.Win.MS17-010.o
+2026-02-11,Intrusion Detection Scan,Intrusion,Intrusion.Generic.CVE-2021-44228.a,0.16%,https://threats.kaspersky.com/en/threat/Intrusion.Generic.CVE-2021-44228.a
+2026-02-11,Intrusion Detection Scan,DoS,DoS.Generic.Flood.ICMP,0.07%,https://threats.kaspersky.com/en/threat/DoS.Generic.Flood.ICMP
+2026-02-11,Intrusion Detection Scan,Intrusion,Intrusion.Generic.CVE-2018-11776.a.exploit,0.06%,https://threats.kaspersky.com/en/threat/Intrusion.Generic.CVE-2018-11776.a.exploit
+2026-02-11,Vulnerability Scan,Exploit,Exploit.Win32.MS05-036,84.02%,https://threats.kaspersky.com/en/threat/Exploit.Win32.MS05-036
+2026-02-11,Vulnerability Scan,Exploit,Exploit.MSOffice.CVE-2017-11882.g,4.83%,https://threats.kaspersky.com/en/threat/Exploit.MSOffice.CVE-2017-11882.g
+2026-02-11,Vulnerability Scan,Exploit,Exploit.Script.CVE-2022-26134.a,3.85%,https://threats.kaspersky.com/en/threat/Exploit.Script.CVE-2022-26134.a
+2026-02-11,Vulnerability Scan,Exploit,Exploit.Java.CVE-2019-2725.gen,2.09%,https://threats.kaspersky.com/en/threat/Exploit.Java.CVE-2019-2725.gen
+2026-02-11,Vulnerability Scan,Exploit,Exploit.HTTP.CVE-2017-5638.gen,0.7%,https://threats.kaspersky.com/en/threat/Exploit.HTTP.CVE-2017-5638.gen
+2026-02-11,Vulnerability Scan,Exploit,Exploit.JS.Aurora.a,0.6%,https://threats.kaspersky.com/en/threat/Exploit.JS.Aurora.a
+2026-02-11,Vulnerability Scan,Exploit,Exploit.Win32.Convagent.gen,0.32%,https://threats.kaspersky.com/en/threat/Exploit.Win32.Convagent.gen
+2026-02-11,Vulnerability Scan,Exploit,Exploit.MSIL.BypassUAC.gen,0.3%,https://threats.kaspersky.com/en/threat/Exploit.MSIL.BypassUAC.gen
+2026-02-11,Vulnerability Scan,Exploit,Exploit.Multi.Desert.gen,0.29%,https://threats.kaspersky.com/en/threat/Exploit.Multi.Desert.gen
+2026-02-11,Vulnerability Scan,Exploit,Exploit.MSOffice.CVE-2017-11882.i,0.23%,https://threats.kaspersky.com/en/threat/Exploit.MSOffice.CVE-2017-11882.i
+2026-02-11,Ransomware,Trojan-Ransom,Trojan-Ransom.WIN32.Phny.a,42.11%,https://threats.kaspersky.com/en/threat/Trojan-Ransom.WIN32.Phny.a
+2026-02-11,Ransomware,Trojan-Ransom,Trojan-Ransom.Win32.Blocker.gen,13.33%,https://threats.kaspersky.com/en/threat/Trojan-Ransom.Win32.Blocker.gen
+2026-02-11,Ransomware,Trojan-Ransom,Trojan-Ransom.Win32.Blocker.wol,7.55%,https://threats.kaspersky.com/en/threat/Trojan-Ransom.Win32.Blocker.wol
+2026-02-11,Ransomware,Trojan-Ransom,Trojan-Ransom.Win32.Crypmodng.gen,6.35%,https://threats.kaspersky.com/en/threat/Trojan-Ransom.Win32.Crypmodng.gen
+2026-02-11,Ransomware,Trojan-Ransom,Trojan-Ransom.Win32.Convagent.gen,5.97%,https://threats.kaspersky.com/en/threat/Trojan-Ransom.Win32.Convagent.gen
+2026-02-11,Ransomware,Trojan-Ransom,Trojan-Ransom.Win32.Gen.gen,5.06%,https://threats.kaspersky.com/en/threat/Trojan-Ransom.Win32.Gen.gen
+2026-02-11,Ransomware,Trojan-Ransom,Trojan-Ransom.Win32.Crypren.gen,3.45%,https://threats.kaspersky.com/en/threat/Trojan-Ransom.Win32.Crypren.gen
+2026-02-11,Ransomware,Trojan-Ransom,Trojan-Ransom.Win32.Gen.btta,1.33%,https://threats.kaspersky.com/en/threat/Trojan-Ransom.Win32.Gen.btta
+2026-02-11,Ransomware,Trojan-Ransom,Trojan-Ransom.Win32.Encoder,1.11%,https://threats.kaspersky.com/en/threat/Trojan-Ransom.Win32.Encoder
+2026-02-11,Ransomware,Trojan-Ransom,Trojan-Ransom.MSIL.Blocker.gen,1.01%,https://threats.kaspersky.com/en/threat/Trojan-Ransom.MSIL.Blocker.gen
+2026-02-11,Kaspersky Anti-Spam,Automated Analysis of Formal Attributes,Automated Analysis of Formal Attributes,16.57%,https://threats.kaspersky.com/en/threat/Automated%20Analysis%20of%20Formal%20Attributes
+2026-02-11,Kaspersky Anti-Spam,Analysis of Formal Attributes,Analysis of Formal Attributes,9.68%,https://threats.kaspersky.com/en/threat/Analysis%20of%20Formal%20Attributes
+2026-02-11,Kaspersky Anti-Spam,Linguistic Analysis,Linguistic Analysis,2.43%,https://threats.kaspersky.com/en/threat/Linguistic%20Analysis
+2026-02-11,Kaspersky Anti-Spam,Analysis of Sender Attributes,Analysis of Sender Attributes,0.19%,https://threats.kaspersky.com/en/threat/Analysis%20of%20Sender%20Attributes
+2026-02-11,Kaspersky Anti-Spam,Signature Analysis,Signature Analysis,0.15%,https://threats.kaspersky.com/en/threat/Signature%20Analysis
+2026-03-20,Kaspersky Anti-Spam,Graphical Content Analysis,Graphical Content Analysis,0.01%,https://threats.kaspersky.com/en/threat/Graphical%20Content%20Analysis
